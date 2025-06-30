@@ -10,7 +10,7 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
   cloudinary: cloudinary,
   params: {
-    folder: 'MakeYourStay_DEV',
+    folder: 'FindYourStay_DEV',
     allowedFormats: ["png","jpg","jpeg"],
   },
 });
